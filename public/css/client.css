@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: soraFont;
+    src: url('build/static/Sora-Regular.ttf');
+}
+:root{
+    --neutral_900: hsl(0, 0%, 7%);
+    --neutral_800: hsl(0, 0%, 15%);
+    --neutral_500: hsl(240, 3%, 46%);
+    --neutral_400: hsl(240, 1%, 59%);
+    --neutral_0 :hsl(0, 0%, 100%);
+    --blue_600: hsl(214, 100%, 55%);
+    --blue_400: hsl(210, 100%, 65%);
+    --red_500: hsl(354, 63%, 57%);
+    --green_500: hsl(140, 63%, 57%);
+    --yellow_400: hsl(49, 85%, 70%);
+    font-family: soraFont;
+}
