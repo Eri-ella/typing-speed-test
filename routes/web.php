@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\TexteController;
 
-Route::get('/', function() {
-    return view('client.acceuil');
-});
+Route::get('/', [TexteController::class, 'index']);
+Route::get('/success', [TexteController::class, 'success']);
